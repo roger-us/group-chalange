@@ -1,0 +1,166 @@
+/* Reset Default Styles */
+* {
+	font-family: arial;
+	padding:0; 
+	margin:0;
+}
+
+/* Challenge Custom Styles */
+
+/* Use these colors for the challenge:
+
+header and footer background color - #babaff
+main background color - #f0f8ff
+global navigation background color - #00f
+footer navigation background color - #00f
+navigation hover color - #ff9600
+main heading font color - #001a63
+main font color - #707070
+
+*/
+
+/* Container */
+#container {
+	width:800px;
+	border: 1px solid #999;
+	background-color:#fff;
+	margin: 20px;
+	padding: 5px;
+}
+
+/* Header */
+header {
+	height: 100px;
+	padding-top:10px;
+	padding-bottom:15px;
+	background-color:#babaff;
+	border-style:solid;
+	border-width: 2px;
+	border-color: rgb(29, 29, 255);
+}
+
+header, footer {
+	
+}
+
+/* Main */
+main {
+	width: 75%;
+	padding:15px;
+	margin-bottom:5px;
+	color: #707070;
+	float:left;
+	background-color:#f0f8ff;
+	font-family:Arial, Helvetica, sans-serif;
+}
+main h2 {
+	font:normal bold 16px; 
+	margin:10px 0; 
+	color: #001a63;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:large;
+	font-weight: bolder;
+}
+
+/* Global Navigation */
+.globalNav {
+	float:left; 
+	width:20%; 
+	border:1px solid #00f; 
+	border-bottom:none;
+	background-color: blue;
+}
+.globalNav ul {
+	
+}
+.globalNav ul li {
+	display: block;
+	border-bottom:1px solid #fff;
+}
+.globalNav ul a { 
+	padding-left: 5px;
+	font:normal bolder 14px;
+	font-weight: bold;
+	font-family: arial; 
+	text-decoration:none; 
+	color:#fff;
+}
+.globalNav ul a:hover {
+	
+}
+[src="images/gcimage.png"] {
+	float:right;
+}
+
+/* Footer */
+footer {
+	clear:both;
+	background-color: #babaff;
+	padding-top:10px;
+	border-style: solid;
+	border-color:#00f;
+	border-width: 2px;
+
+
+}
+footer p {
+	text-align: center;
+	font-style: italic;
+	font-family: Arial;
+	font-weight: bold;
+	padding: 10px;
+	font-size: x-small;
+	color:rgb(70, 69, 69);
+
+	
+}
+.footerNav {
+	text-align: center;
+	background:#00f;
+	padding: 5px 0;
+}
+.footerNav li {
+	border-left:1px solid #fff;
+	text-align:center;
+	padding-left:6px;
+	display:inline;
+	font-weight:bold;
+	font-size:small;
+	
+	
+}
+.footerNav li:first-child {
+	border-left:none;
+	
+}
+.footerNav a {
+	color:#fff; 
+	font:normal bold 14px; 
+	text-decoration:none;
+}
+.footerNav a:hover {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
